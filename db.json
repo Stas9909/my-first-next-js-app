@@ -1,0 +1,32 @@
+{
+  "keyItems": [
+    {
+      "id": "1",
+      "name": "Cheeseburger",
+      "image": "/assets/Cheeseburger.jpg",
+      "description": "Classic 100% beef steak burger with pickled cucumbers and fresh wheat bun.",
+      "price": 90
+    },
+    {
+      "id": "2",
+      "name": "Chickenburger",
+      "image": "/assets/Chickenburger.jpg",
+      "description": "Chicken burger topped with melted cheese, BBQ sauce and lettuce.",
+      "price": 120
+    },
+    {
+      "id": "3",
+      "name": "Doubleburger",
+      "image": "/assets/Double-hamburger.jpg",
+      "description": "Double hamburger with 100% beef steak and melted cheddar cheese and spicy sauce.",
+      "price": 150
+    },
+    {
+      "id": "4",
+      "name": "Fishburger",
+      "image": "/assets/fishburger.jpg",
+      "description": "Crispy fish burger with easy garlic lemon mayo and a pile of crispy and totally addictive shoestring fries.",
+      "price": 130
+    }
+  ]
+}

@@ -6,11 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "mock": "json-server --watch db.json --port 4400",
+    "serve": "concurrently \"npm run dev\" \"npm run mock\"",
+    "build-api": "concurrently \"npm run build\" \"npm run mock\""
   },
   "dependencies": {
     "next": "13.3.0",
+    "nextjs-progressbar": "^0.0.16",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
   }
 }

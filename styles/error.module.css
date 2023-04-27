@@ -1,0 +1,10 @@
+.error {
+  color: red;
+}
+
+.divForError{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
